@@ -1,6 +1,6 @@
-# 🏛️ Better LB (Los Baños)
+# 🏛️ Better Lucena
 
-A community-led, open-source portal designed to make the government of the **Municipality of Los Baños** accessible, transparent, and user-friendly.
+A community-led, open-source portal designed to make the government of the **Municipality of Lucena** accessible, transparent, and user-friendly.
 
 This project is a municipal-focused fork of [BetterGov.ph](https://bettergov.ph), adapted to meet the specific needs of Los Bañenses.
 
@@ -12,7 +12,7 @@ BetterSolano.org https://github.com/BetterSolano/bettersolano
 Betterlocalgov https://github.com/iyanski/betterlocalgov
 
 ### Portal Features
-BetterLB provides Los Baños with:
+BetterLucena provides Lucena with:
 - **Public Services Directory**: Comprehensive guide to municipal services with requirements, fees, and step-by-step processes
 - **Legislative Portal**: Access to ordinances, resolutions, and executive orders from the Sangguniang Bayan
 - **Transparency Dashboard**: Financial data, procurement bids, and infrastructure projects
@@ -23,7 +23,7 @@ BetterLB provides Los Baños with:
 
 ## 🔄 Forking for Your LGU
 
-BetterLB is designed to be easily adapted for any Local Government Unit (LGU) in the Philippines.
+BetterLucena is designed to be easily adapted for any Local Government Unit (LGU) in the Philippines.
 
 ## Quick Start for Other LGUs
 
@@ -44,18 +44,18 @@ BetterLB is designed to be easily adapted for any Local Government Unit (LGU) in
 
 ### Key Configuration Fields
 
-| Field | Description | Example (Los Baños) |
+| Field | Description | Example () |
 |-------|-------------|---------------------|
-| `lgu.name` | Short municipality name | "Los Baños" |
-| `lgu.fullName` | Full official name | "Municipality of Los Baños" |
+| `lgu.name` | Short municipality name | "" |
+| `lgu.fullName` | Full official name | "Municipality of " |
 | `lgu.province` | Province name | "Laguna" |
 | `lgu.region` | Region name | "Region IV-A" |
 | `lgu.regionCode` | Region code | "CALABARZON" |
 | `lgu.type` | LGU type | "municipality" or "city" |
 | `lgu.officialWebsite` | Official LGU website | "https://losbanos.gov.ph" |
-| `portal.name` | Portal name | "BetterLB" |
+| `portal.name` | Portal name | "BetterLucena" |
 | `portal.baseUrl` | Portal base URL | "https://betterlb.org" |
-| `portal.tagline` | Portal tagline | "Community Powered Los Baños Portal" |
+| `portal.tagline` | Portal tagline | "Community Powered  Portal" |
 
 **Note:** See [`FORKING.md`](./FORKING.md) for comprehensive forking instructions including database setup for legislative data.
 
@@ -161,9 +161,9 @@ betterlb/
 - **Search Integration**: Meilisearch-powered search with real-time indexing
 - **Internationalization**: Multi-language support with i18next
 
-### Los Baños-Specific Data
+### Lucena-Specific Data
 
-BetterLB includes structured data for Los Baños:
+BetterLucena includes structured data for Lucena:
 
 | Data Type | Location | Description |
 |-----------|----------|-------------|
@@ -176,7 +176,7 @@ BetterLB includes structured data for Los Baños:
 
 #### Data Pipeline for Legislative Documents
 
-Los Baños legislative documents are processed through a Python pipeline:
+Lucena legislative documents are processed through a Python pipeline:
 
 1. **Scrape** (`pipeline/1_scrape.py`) - Download PDFs from official sources
 2. **Normalize** (`pipeline/1.5_normalize.py`) - Standardize filenames and metadata
@@ -224,7 +224,7 @@ npm run build           # Combines merge_services, TypeScript, and Vite build
 
 ---
 
-## 🏛️ Los Baños Government Structure
+## 🏛️ Lucena Government Structure
 
 ### Executive Branch
 - **Mayor**: Chief executive officer of the municipality
@@ -232,7 +232,7 @@ npm run build           # Combines merge_services, TypeScript, and Vite build
 - **Municipal Departments**: Administrative offices implementing municipal programs
 
 ### Legislative Branch (Sangguniang Bayan)
-The Sangguniang Bayan is the legislative body of Los Baños, composed of:
+The Sangguniang Bayan is the legislative body of Lucena, composed of:
 - **Vice Mayor** (Presiding Officer)
 - **8 Regular Councilors** (District representatives)
 - **2 Ex-Officio Councilors** (ABC President and SK Federation President)
@@ -252,7 +252,7 @@ See the [Government Directory](https://betterlb.org/government) on the live site
 ---
 
 ## Join the Grassroots Movement
-We are looking for volunteers passionate individuals who want to make Los Baños a better place. You don't need to be a developer to help!
+We are looking for volunteers passionate individuals who want to make Lucena a better place. You don't need to be a developer to help!
 
 ### How You Can Contribute:
 1.  **Non-Developers**: Visit the `/contribute` page on the live site to suggest new services or fix outdated information via GitHub Issues (requires a free GitHub account).
@@ -269,9 +269,9 @@ We are looking for volunteers passionate individuals who want to make Los Baños
 
 ## 🚢 Deployment
 
-### Production Deployment (BetterLB)
+### Production Deployment (BetterLucena)
 
-BetterLB is deployed on **Cloudflare Pages** with:
+BetterLucena is deployed on **Cloudflare Pages** with:
 - **Frontend**: Vite build automatically deployed on push to `main` branch
 - **Backend**: Cloudflare Pages Functions for API endpoints
 - **Database**: Cloudflare D1 (`betterlb_openlgu`) for legislative data
@@ -299,11 +299,11 @@ See [`ARCHITECTURE.md`](./ARCHITECTURE.md#deployment) for detailed deployment st
 This project is released under the [Creative Commons CC0](https://creativecommons.org/publicdomain/zero/1.0/) dedication. The work is dedicated to the public domain and can be freely used, modified, and distributed without restriction.
 
 ### Data Attribution
-BetterLB aggregates data from multiple sources:
+BetterLucena aggregates data from multiple sources:
 
 | Data Source | Type | Attribution |
 |-------------|------|-------------|
-| **Municipality of Los Baños** | Official government data, services directory | Public domain |
+| **Municipality of Lucena** | Official government data, services directory | Public domain |
 | **Philippine Government Procurement Portal (PhilGEPS)** | Procurement bids and awards | Republic of the Philippines |
 | **Department of Budget and Management (DBM)** | Financial releases | Republic of the Philippines |
 | **Department of Public Works and Highways (DPWH)** | Infrastructure projects | Republic of the Philippines |
@@ -315,7 +315,7 @@ BetterLB aggregates data from multiple sources:
 
 ## 📞 Contact and Support
 
-### For Los Baños Residents
+### For Lucena Residents
 - **Website**: https://betterlb.org
 - **GitHub Issues**: Report bugs or suggest features at [github.com/BetterLosBanos/betterlb/issues](https://github.com/BetterLosBanos/betterlb/issues)
 - **Community**: Join our community contributions via the "Contribute" page on the portal
