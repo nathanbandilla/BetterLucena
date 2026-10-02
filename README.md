@@ -2,7 +2,7 @@
 
 A community-led, open-source portal designed to make the government of the **Municipality of Lucena** accessible, transparent, and user-friendly.
 
-This project is a municipal-focused fork of [BetterGov.ph](https://bettergov.ph), adapted to meet the specific needs of Los Bañenses.
+This project is a municipal-focused fork of [BetterGov.ph](https://bettergov.ph), adapted to meet the specific needs of Lucenahins.
 
 ---
 ### Inspirations
