@@ -48,13 +48,13 @@ BetterLucena is designed to be easily adapted for any Local Government Unit (LGU
 |-------|-------------|---------------------|
 | `lgu.name` | Short municipality name | "" |
 | `lgu.fullName` | Full official name | "Municipality of " |
-| `lgu.province` | Province name | "Laguna" |
+| `lgu.province` | Province name | "Quezon" |
 | `lgu.region` | Region name | "Region IV-A" |
 | `lgu.regionCode` | Region code | "CALABARZON" |
 | `lgu.type` | LGU type | "municipality" or "city" |
-| `lgu.officialWebsite` | Official LGU website | "https://losbanos.gov.ph" |
+| `lgu.officialWebsite` | Official LGU website | "https://lucena.gov.ph" |
 | `portal.name` | Portal name | "BetterLucena" |
-| `portal.baseUrl` | Portal base URL | "https://betterlb.org" |
+| `portal.baseUrl` | Portal base URL | "https://betterlucena.org" |
 | `portal.tagline` | Portal tagline | "Community Powered  Portal" |
 
 **Note:** See [`FORKING.md`](./FORKING.md) for comprehensive forking instructions including database setup for legislative data.
