@@ -1,9 +1,9 @@
 {
   "lgu": {
-    "name": "Los Ba\u00f1os",
-    "fullName": "Municipality of Los Ba\u00f1os",
-    "province": "Laguna",
-    "districtEngineeringOffice": "Laguna 2nd DEO",
+    "name": "Lucena",
+    "fullName": "Municipality of Lucena",
+    "province": "Quezon",
+    "districtEngineeringOffice": "Quezon 1st DEO",
     "region": "Region IV-A",
     "regionCode": "CALABARZON",
     "type": "municipality",
@@ -11,12 +11,12 @@
     "provinceWebsite": "https://laguna.gov.ph"
   },
   "portal": {
-    "name": "BetterLB",
-    "domain": "betterlb.org",
-    "baseUrl": "https://betterlb.org",
-    "description": "Community-powered portal of the Municipality of Los Ba\u00f1os.",
+    "name": "BetterLucena",
+    "domain": "betterLucena.org",
+    "baseUrl": "https://betterLucena.org",
+    "description": "Community-powered portal of the Municipality of Lucena.",
     "brandColor": "#0066eb",
-    "footerBrandName": "Better Los Ba\u00f1os",
+    "footerBrandName": "Better Lucena",
     "logoWhitePath": "/logos/svg/betterlb-icon-white.svg",
     "navbarLogoPath": "/logos/svg/betterlb-icon-colored.svg",
     "defaultOgImagePath": "/logos/svg/betterlb-icon-colored.svg",
@@ -34,17 +34,17 @@
       "lon": 121.2219
     },
     "weather": {
-      "defaultCity": "Los Ba\u00f1os"
+      "defaultCity": "Lucena"
     }
   },
   "transparency": {
     "procurement": {
-      "organizationName": "MUNICIPALITY OF LOS BA\u00d1OS, LAGUNA",
+      "organizationName": "MUNICIPALITY OF LUCENA, QUEZON",
       "externalDashboard": "https://transparency.bettergov.ph/organizations/"
     },
     "infrastructure": {
-      "searchString": "Los Ba\u00f1os",
-      "exactMatchTargets": ["los ba\u00f1os", "los banos"]
+      "searchString": "Lucena",
+      "exactMatchTargets": ["Lucena", "lucena"]
     }
   },
   "dataPaths": {
